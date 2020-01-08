@@ -1,4 +1,4 @@
 $('a.yourlink').click(function(e) {
   e.preventDefault();
-  window.open('./Scripts/index.php?hello=true');
+  window.open('http://phpwebsite123.epizy.com/index.php?hello=true');
 });
