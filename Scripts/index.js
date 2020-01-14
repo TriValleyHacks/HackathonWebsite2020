@@ -1,4 +1,8 @@
 $('a.yourlink').click(function(e) {
-  e.preventDefault();
-  window.open('http://phpwebsite123.epizy.com/index.php?hello=true');
+  var fs = require('fs');
+var stream = fs.createWriteStream("logging.txt");
+stream.once('open', function(fd) {
+  stream.write("Someone Clicked Link");
+  stream.end();
+});
 });
