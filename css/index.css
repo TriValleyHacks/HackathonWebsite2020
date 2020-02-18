@@ -108,8 +108,8 @@ footer{
 	font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 .overlay {
-    position: relative;
-    bottom: 30%;
+    position: absolute;
+    top: 20%;
     left: 0%;
     right: 0%;
     display: -webkit-flex;
@@ -140,6 +140,7 @@ a:hover{
 .spo{
   padding-top: 5%;
   padding-bottom: 5%;
+  position: relative;
 }
 .part {
   padding-top: 5%;
@@ -163,4 +164,9 @@ a:hover{
   font-size: 16px;
   margin: 4px 4px;
   cursor: pointer;
+}
+.menu{
+  background-image: url("/Images/circuit.png");
+  background-size: auto;
+  background-repeat: repeat;
 }
