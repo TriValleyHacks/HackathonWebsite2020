@@ -55,8 +55,8 @@ body{
 .title {
   color: #00f2bb;
   display: block;
-  position: absolute;
-  top: 50%;
+  position: relative;
+  top: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -108,7 +108,7 @@ footer{
 	font-family: 'Oswald Bold', Oswald, sans-serif; 
 }
 .overlay {
-    position: absolute;
+    position: relative;
     bottom: 30%;
     left: 0%;
     right: 0%;
