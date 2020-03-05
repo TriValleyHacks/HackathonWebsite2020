@@ -170,3 +170,38 @@ a:hover{
   background-size: auto;
   background-repeat: repeat;
 }
+.image-container {
+  position: relative;
+}
+.image-container .after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  color: #00f2bb;
+}
+.show-text {
+  display: none;
+}
+@media(max-width:1000px){
+  .image-container .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: #6d6e6e;
+  }
+  .show-text{
+    display:block;
+  }
+  .textcolor{
+    color: #00f2bb;
+  }
+  .show-picture{
+    display: none;
+  }
+}
